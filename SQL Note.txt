@@ -1,0 +1,46 @@
+
+DBMS -> C-R-U-D: Create, Read/Retrieve, Update and Delete
+
+2 Types of DB: Relational Database(use SQL and store data in tables, rows & columns) & Non-Relational Database(store data using other data structures).
+
+RDBMS(Relational Database Management System) tools are: MySQL, Oracle, PostgreSQL MariaDB, etc.
+
+As database get more complex, it makes a difficult to locate a particular information from the database, so, the good way to retrieve information is by the use of SQL.
+
+
+DBMS Terminologies: Primary key is unique to each relational database.
+
+Foreign keys: in DBMS stores the primary key of a row in another database table. 
+
+Composite Key: is made of 2 columns of primary keys.
+
+SQL = Structure Query Language: is used to interact with Relational DBMS.
+SQL can perform administration tasks(e.g, security, user management, import/export, etc.)
+SQL is consists 4 types of languages into one.
+i. DQL = Data Query Language
+ii. DDL = Data Definition Language
+iii. DCL = Data Control Language
+iv. DML = Data Manipulation Language
+
+PopSQL: is a text editor using to queries MySQL database and get the information back.
+
+SQL Data-type: INT, DECIMAL(M,N), VARCHAR(1), BLOB(Binary Large Object, stores large data), DATE, TIMESTAMP;
+
+1st thing in SQL is to define your SQL SCHEMA;
+
+DROP TABLE: means to delete table in SQL;
+
+* is use to grab all the information in a particular table.
+
+SQL Commands: <> Not equal to, -- anything after this will be a command.
+
+Whenever we set FOREIGN KEY, we must include [ON DELETE SET NULL] in the command statement.
+
+Whenever we set COMPOSITE KEY(more than one primary key), we must include [ON DELETE CASCADE] in the command statement.
+
+% =means any number(#) of characters, _ =means one character.
+
+TRIGGER test: is a form of alert whenever the row/column got added. 
+
+ER(Entity Relationship) Diagram: consist of Conceptual and Physical.
+
